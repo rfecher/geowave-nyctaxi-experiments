@@ -1,11 +1,10 @@
-# NYC-Taxi Demo
+# NYC-Taxi Indexing Experimentation
 ## About
-The nyc-taxi demo is a demonstration of some of the features of the Geowave service. It takes in a set of information from the NYCTLC (New York City Taxi & Limousine Commission) and outputs how long a taxi trip from one chosen point on the map to another would be based on the data set.
+This project is a subset of a demo-able application that can be found in full at http://github.com/radiantbluetechnologies/geowave-demos. It primarily focuses on experimentation with indexing techniques using taxi trip data available from NYCTLC (New York City Taxi & Limousine Commission).
 
 The NYCTLC trip data can be find [here.](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
 
-This is a subset of the demo-able application that can be found in full at http://github.com/radiantbluetechnologies/geowave-demos
-This portion of the application was used for research purposes.
+This portion of the demo application was used for research purposes.
 
 
 ## Installing the Project

@@ -1,5 +1,5 @@
-#NYC-Taxi Demo
-##About
+# NYC-Taxi Demo
+## About
 The nyc-taxi demo is a demonstration of some of the features of the Geowave service. It takes in a set of information from the NYCTLC (New York City Taxi & Limousine Commission) and outputs how long a taxi trip from one chosen point on the map to another would be based on the data set.
 
 The NYCTLC trip data can be find [here.](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
@@ -8,14 +8,14 @@ This is a subset of the demo-able application that can be found in full at http:
 This portion of the application was used for research purposes.
 
 
-##Installing the Project
+## Installing the Project
 After pulling down the repository, cd into the **/nyc-taxi/** directory and run 
 ```
 $ mvn package
 ```
 This will resolve all of the dependencies and build the target/geowave-format-0.9.5-SNAPSHOT.jar. 
 
-##Ingesting Data
+## Ingesting Data
 Assuming that the appropriate software stack (Hadoop, Zookeeper, and Accumulo and/or HBase) has been successfully setup, the following steps will show how to ingest a set of data.
 
 To install the Geowave command line, follow the instructions [here](https://locationtech.github.io/geowave/documentation.html#installation-from-rpm) to install Geowave 0.9.5.
